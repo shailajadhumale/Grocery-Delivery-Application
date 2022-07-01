@@ -31,7 +31,7 @@ private long paymentId;
 @Column(name="total_price")
 private  double totalPrice;
 
-@Column(name="order_id")
+@Column(name="order_id",unique=true)
 private  long orderId;
 
 
