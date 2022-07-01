@@ -36,32 +36,6 @@ class CartTestCase {
 		assertNotNull(cartRepository.save(cart));
 	}
 
-//	@Test
-//
-//	@Order(2)
-//
-//	//@Disabled
-//	public void viewProductFromWishlist() {
-//		List<Wishlist> wishlistProduct = wishlistRepository.findAll();
-//		assertThat(wishlistProduct).size().isGreaterThan(0);
-//	}
-//
-//	@Test
-//
-//	@Order(3)
-//	public void getByWishlistId() {
-//		Wishlist wishlist = wishlistRepository.findById(251).get();
-//		assertThat(wishlist.getWishlistId()).isEqualTo(251);
-//	}
-//
-//	@Test
-//
-//	@Order(4)
-//	public void viewWishlistProduct() {
-//		Product product = wishlistRepository.findById(251).get().getProduct();
-//		System.out.println(product.getProductCompany() + " " + product.getProductModel() + " "
-//				+ product.getProductFeatures() + " " + product.getProductPrice());
-//
-//	}
+
 
 }
